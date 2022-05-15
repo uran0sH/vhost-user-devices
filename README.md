@@ -1,14 +1,19 @@
-# Crate Name
+# vhost-user-devices
+vhost-user-net
+vhost-user-blk
+vhost-user-fs
 
 ## Design
 
-TODO: This section should have a high-level design of the crate.
+<!-- TODO: This section should have a high-level design of the crate.
 
 Some questions that might help in writing this section:
 - What is the purpose of this crate?
 - What are the main components of the crate? How do they interact which each
-  other?
+  other? -->
+This repo contains various vhost-user-devices. These devices follow [vhost-user-protocol](https://qemu.readthedocs.io/en/latest/interop/vhost-user.html)
 
+See [Design](./docs/design.md)
 ## Usage
 
 TODO: This section describes how the crate is used.
